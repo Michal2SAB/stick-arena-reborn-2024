@@ -74,7 +74,7 @@ The original project was started by WuggyRS here: https://github.com/WuggyRS/sti
 
 ## [2024-03-16]
 
-### Changed
+### Added
 - Added more sprites (the rest of SA weapons, attacks etc)
 - Brought back the old HP Bar (dirty, needs a different approach in future)
 - Added leaderboard display in-game with "shift" key (testing only, not implemented correctly, only the box)
