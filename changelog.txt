@@ -1,0 +1,31 @@
+# Changelog
+
+## [2024-03-16]
+
+### Changed
+- Added more sprites (the rest of SA weapons, attacks etc)
+- Brought back the old HP Bar (dirty, needs a different approach in future)
+- Added leaderboard display in-game (testing only, not implemented correctly, only the box)
+
+## [2024-03-15]
+
+### Added
+- Added 9 SA collision types in Constants.js and Game.js. Need some better handling and improved collision detection against the players head (rectangle).
+
+## [2024-03-06]
+
+### Changed
+- Constants.js and Game.js: Now automatically checking for each map tile rotations, flips and collisions (2 types).
+
+## [2024-03-05]
+
+### Added
+- Player.js, Constants.js and /sprites/: Added glock walking animation. Change animation transition method entirely in future, remove blinking (restoring to previous animation)
+
+### Fixed
+- Mouse.js: Resolved issue with mouse cursor rotation and shooting at map edges.
+
+### Changed
+- Camera.js: Updated to prevent camera from escaping the edges of the map.
+- Game.js: Updated drawMap() to set and store custom map size in Constants.gameSettings.
+- Index.html: Changed size of the canvas, reverting back to the classic (ballistick) dimensions.

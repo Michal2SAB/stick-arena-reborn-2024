@@ -1,0 +1,16 @@
+The last number of tile data
+
+
+0, 1, 2: Players can walk on these tiles without any restrictions.
+
+3, 4: These tiles block player movement and cannot be walked on.
+
+5: Represents areas with minimal space, such as narrow passages or edges of objects. Players may have limited movement in these areas.
+
+6: Indicates areas where only half of the tile is accessible, often found in kitchen parts adjacent to walls.
+
+7: Most of the tile is walkable, but a small portion may be restricted, allowing partial movement.
+
+8: Pods or similar objects where players can walk around the top middle corner.
+
+9: Similar to type 8 but with restrictions around the bottom middle corner, preventing players from walking around.
